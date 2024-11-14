@@ -1,0 +1,35 @@
+:root {
+    --hotpink: #EF7C8E;
+    --cream: #fae8e0;
+    --spearmint: #b6e2d3;
+    --rosewater: #D8A7B1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: var(--cream);
+     }
+
+.welcome-section {
+    color: rgb(6, 6, 219);
+    margin: 10vh;
+     font-size: 2rem;
+     font-weight: bold;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    place-items: center;
+  }
+
+  

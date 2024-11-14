@@ -1,0 +1,55 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--hotpink);
+    
+    z-index: 10;
+    box-shadow: 2px 2px 5px var(--hotpink);
+    }
+  
+    .nav-list {
+      display: flex;
+      margin-right: 2rem;
+    }
+  
+  
+  
+  
+  #navbar li {
+      display: inline;
+      
+      
+      margin-right: 1vw;
+      position: relative;
+     
+      text-align: center;
+      padding: 1vw;
+      border-right: 1px solid #fff;
+      border-radius: 2px;
+     
+  }
+  
+  #navbar a {
+       display: block;
+    text-decoration: none;
+     color: white;
+     font-size: 16px;
+     font-weight: bold;
+     height: 100%;
+     width: 100%;
+  }
+  
+  .nav-list li:hover {
+      
+      background-color: var(--rosewater);
+  }
+  
+  .active {
+      background-color: #4caf50;
+  }
